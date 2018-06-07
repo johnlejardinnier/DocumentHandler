@@ -1,0 +1,37 @@
+{
+  "name": "DocumentHandler",
+  "version": "0.2.2",
+  "description": "Cordova DocumentHandler Plugin",
+  "types": "./types/index.d.ts",
+  "cordova": {
+    "id": "ch.ti8m.documenthandler",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnlejardinnier/DocumentHandler"
+  },
+  "keywords": [
+    "cordova",
+    "DocumentHandler",
+  ],
+  "engines": {
+    "cordovaDependencies": {
+      "2.0.0": {
+        "cordova-android": ">=3.6.0"
+      },
+      "4.0.0": {
+        "cordova-android": ">=3.6.0",
+        "cordova-windows": ">=4.4.0"
+      },
+      "6.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "author": "ti8m",
+  "license": "MIT"
+}
